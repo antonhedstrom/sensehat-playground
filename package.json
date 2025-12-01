@@ -1,0 +1,22 @@
+{
+  "name": "sensehat-test",
+  "version": "0.1.0",
+  "description": "Test app for sensehat",
+  "main": "main.js",
+  "scripts": {
+    "start": "tsx main.ts",
+    "start-2": "tsx main-2.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anton",
+  "license": "MIT",
+  "dependencies": {
+    "pi-sense-hat": "^1.0.14",
+    "pigpio": "^3.3.1",
+    "sense-hat-led": "^1.2.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}
