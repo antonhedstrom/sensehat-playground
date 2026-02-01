@@ -5,12 +5,15 @@
   "main": "main.js",
   "scripts": {
     "start": "tsx main.ts",
+    "start-web": "tsx web-controlled/server.ts",
     "start-2": "tsx main-2.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Anton",
   "license": "MIT",
   "dependencies": {
+    "body-parser": "^2.2.2",
+    "express": "^5.2.1",
     "pi-sense-hat": "^1.0.14",
     "pigpio": "^3.3.1",
     "sense-hat-led": "^1.2.0"

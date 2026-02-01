@@ -69,7 +69,7 @@ const nothing_process = {
 
 // Toggle around among these
 // const views = [nothing_process, countdown_process, snake_process, countdown_snake_process, advent_process]
-const views = [nothing_process, countdown_process, advent_process]
+const views = [nothing_process, countdown_process]
 let current_view_index = 0
 nothing_process.start()
 
